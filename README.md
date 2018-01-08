@@ -1,1 +1,1 @@
-# Node-RED for Docker
+# Node-RED (Dockerfile) for now

@@ -6,14 +6,6 @@ if (!fs.existsSync(awsdir)) {
   fs.mkdirSync(awsdir)
 }
 
-// make config file
-var config = [
-  '[default]',
-  'output = json',
-  'region = us-east-1'
-].join('\n')
-fs.writeFileSync(awsdir + '/config' , config)
-
 // make credentials file
 var credentials = [
   '[default]',

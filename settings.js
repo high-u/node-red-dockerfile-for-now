@@ -1,4 +1,9 @@
 module.exports = {
+  awsRegion: 'us-east-1',
+  awsS3Bucket: 'now-node-red-2018',
+  awsS3Appname: 'nodereddocker',
+  storageModule: require('node-red-contrib-storage-s3'),
+
   httpAdminRoot: '/',
   httpNodeRoot: '/api/',
   uiPort: 3000,
